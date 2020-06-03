@@ -16,7 +16,7 @@ body {
 .grid-main {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 28vh 5vh auto 5vh;
+    grid-template-rows: 30vh 5vh auto 5vh;
     background-color: #2C2F33;
     height: 100vh;
 }
@@ -108,6 +108,9 @@ dt a, dd a {
     grid-row: 4;
     text-align: center;
     text-decoration: none;
+}
+footer div {
+    background-color: #23272A;
 }
 /* Media queries */
 @media only screen and (orientation: portrait) and (max-width: 425px) {
