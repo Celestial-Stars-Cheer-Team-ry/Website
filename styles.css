@@ -13,15 +13,21 @@ Text: #F8F8FF
 body {
     margin: 0;
 }
+h1, h2, a {
+    color: #BF94E4;
+}
+h1, h2, h3 {
+    margin: 1vh 0;
+}
+p {
+    margin: 0;
+}
 .grid-main {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 30vh 5vh auto 5vh;
     background-color: #2C2F33;
     height: 100vh;
-}
-h1, h2, a {
-    color: #BF94E4;
 }
 /* Header pic */
 .grid-pic {
@@ -80,7 +86,7 @@ h1, h2, a {
 }
 .center article {
     grid-column: 2;
-    padding: 1vh 2vw;
+    padding: 2vh 2vw;
     text-align: left;
 }
 .center-side-right {
