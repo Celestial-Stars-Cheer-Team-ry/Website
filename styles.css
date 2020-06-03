@@ -75,7 +75,7 @@ h1, h2, a {
     display: grid;
     grid-column: 2;
     grid-row: 1 / 6;
-    grid-template-columns: auto 3fr auto;
+    grid-template-columns: auto 65% auto;
     grid-template-rows: auto;
 }
 .center article {
