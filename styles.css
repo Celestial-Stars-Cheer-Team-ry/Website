@@ -37,7 +37,7 @@ dt {
 /* Header pic */
 .grid-pic {
     align-content: center;
-    background-image: url(assets/header.jpg);
+    background-image: url(assets/header.png);
     background-size: cover;
     background-position: center;
     grid-row: 1;
@@ -128,23 +128,20 @@ footer div {
 /* Media queries */
 @media only screen and (orientation: portrait) and (max-width: 425px) {
     .grid-content {
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 0% 100% 0%;
     }
-    .center-side-left {
-        display: none;
-    }
-    .center-side-right {
+    .center-side-left, .center-side-right {
         display: none;
     }
 }
-@media only screen and (orientation: landscape) and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .grid-content {
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 5% 90% 5%;
      }
 }
 @media only screen and (orientation: landscape) and (min-width: 1024px) {
     .grid-content {
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 5% 90% 5%;
     }
 }
 @media only screen and (orientation: landscape) and (min-width: 1440px) {
